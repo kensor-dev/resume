@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "sass src/style.scss dist/style.css",
+    "dev": "sass src/style.scss dist/style.css --watch"
+  },
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "A Pen created on CodePen.io. Original URL: [https://codepen.io/mariosmaselli/pen/popWjr](https://codepen.io/mariosmaselli/pen/popWjr).",
+  "main": "",
+  "keywords": [],
+  "author": "kensor",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.81.0"
+  }
+}
