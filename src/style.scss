@@ -266,9 +266,12 @@ a{color:$linkColor; text-decoration:none;}
   
 }
 
-@keyframes skill_1 {from {width:40%;}to {width:95%;}}
-@keyframes skill_2 {from {width:40%;}to {width:95%;}}
-@keyframes skill_3 {from {width:40%;}to {width:90%;}}
-@keyframes skill_4 {from {width:0%;}to {width:85%;}}
-@keyframes skill_5 {from {width:40%;}to {width:80%;}}  
-@keyframes skill_6 {from {width:40%;}to {width:75%;}}
+.keyframes {
+  @keyframes skill_1 {from {width:0%;}to {width:95%;}}
+  @keyframes skill_2 {from {width:0%;}to {width:95%;}}
+  @keyframes skill_3 {from {width:0%;}to {width:90%;}}
+  @keyframes skill_4 {from {width:0%;}to {width:85%;}}
+  @keyframes skill_5 {from {width:0%;}to {width:80%;}}  
+  @keyframes skill_6 {from {width:0%;}to {width:75%;}}
+}
+
