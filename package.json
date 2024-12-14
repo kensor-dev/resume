@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "build": "npm run copy-html && npm run copy-js && sass src/style.scss dist/style.css",
+    "build": "npm run copy-html && npm run copy-js && npm run copy-image && sass src/style.scss dist/style.css",
     "dev": "sass src/style.scss dist/style.css --watch",
     "copy-html": "copyfiles -u 1 src/*.html dist/",
-    "copy-js": "copyfiles -u 1 src/*.js dist/"
+    "copy-js": "copyfiles -u 1 src/*.js dist/",
+    "copy-image": "copyfiles -u 1 src/image.png dist/"
   },
   "name": "resume",
   "version": "1.0.0",
