@@ -257,12 +257,12 @@ a{color:$linkColor; text-decoration:none;}
       bottom:0;
     }
     &:nth-child(1)::before {width:100%;animation: skill_1 $time ease;}
-    &:nth-child(2)::before {width:100%; animation: skill_2 $time ease;} 
+    &:nth-child(2)::before {width:100%;animation: skill_2 $time ease;} 
     &:nth-child(3)::before {width:100%;animation: skill_3 $time ease;}
     &:nth-child(4)::before {width:100%;animation: skill_4 $time ease;}
     &:nth-child(5)::before {width:100%;animation: skill_5 $time ease;}
     &:nth-child(6)::before {width:100%;animation: skill_6 $time ease;}
-    &:nth-child(7)::before {width:100%;animation: skill_6 $time ease;}
+    &:nth-child(7)::before {width:50%;animation: skill_6 $time ease;}
   }
   
 }
@@ -273,4 +273,4 @@ a{color:$linkColor; text-decoration:none;}
 @keyframes skill_4 {from {width:0%;}to {width:100%;}}
 @keyframes skill_5 {from {width:0%;}to {width:100%;}}  
 @keyframes skill_6 {from {width:0%;}to {width:100%;}}
-@keyframes skill_7 {from {width:0%;}to {width:100%;}}
+@keyframes skill_7 {from {width:0%;}to {width:50%;}}
