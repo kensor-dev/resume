@@ -99,19 +99,15 @@ a{color:$linkColor; text-decoration:none;}
     background-size:cover;
     border-radius:50%;
     margin-right:0px;
-    display:table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position:relative;
     vertical-align:middle;
-    span {
-        display:table-cell;
-        vertical-align: middle;
-        position:relative;
-        margin:0 auto;
-        z-index:10;
-       text-align:center
-    }
     img {
       border-radius:50%;
+      outline: 10px solid $boldColor;
+      outline-offset: 10px;
       width:130px;
       @include breakpoint(papa-bear) {
         width:80px;
